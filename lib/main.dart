@@ -38,9 +38,6 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                   fontSize: 17))),
       home: AssesmentListSCreen(),
-      routes: {
-        AssessmentNameScreen.routeName: (context) => AssessmentNameScreen()
-      },
     );
   }
 }

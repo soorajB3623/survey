@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-import 'package:survey/screens/assesment_centre_activity_screen.dart';
 import '../models/assementActivities.dart';
 import '../data/accessor.dart';
 import '../data/participants.dart';
@@ -51,7 +50,7 @@ class AssessmentActivitiesController extends GetxController {
         DateTime(DateTime.now().year, DateTime.now().month + 3,
             DateTime.now().day + 5)),
   ];
-  var check = false;
+  // var check = false;
   List<AssesmentActivity> get items {
     return [..._items];
   }

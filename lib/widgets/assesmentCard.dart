@@ -125,9 +125,8 @@ class Assesmentcard extends StatelessWidget {
                                               .caption,
                                         ),
                                         trailing: InkWell(
-                                          onTap: () => Navigator.of(context)
-                                              .pushNamed(AssessmentNameScreen
-                                                  .routeName),
+                                          onTap: () => Get.to(
+                                              () => AssessmentNameScreen()),
                                           child: CircleAvatar(
                                             radius: 16,
                                             child: Icon(
